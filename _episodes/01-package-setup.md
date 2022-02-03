@@ -172,7 +172,7 @@ You should see the following directory structure.
 │   │   ├── look_and_say.dat
 │   │   └── README.md
 │   ├── __init__.py                 <- Basic Python Package import file
-│   ├── molecool.py
+│   ├── functions.py
 │   ├── _version.py                 <- Automatic version control with Versioneer
 │   └── tests                       <- Unit test directory with sample tests
 │       ├── __init__.py
