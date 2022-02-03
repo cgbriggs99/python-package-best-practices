@@ -162,20 +162,22 @@ Navigate to the newly created `molecool` directory.
 You should see the following directory structure.
 
 ```
+
 .
 ├── CODE_OF_CONDUCT.md              <- Code of Conduct for developers and users
 ├── LICENSE                         <- License file
 ├── MANIFEST.in                     <- Packaging information for pip
-├── README.md                       <- Description of project which GitHub will render
-├── molecool                        <- Basic Python Package import file
-│   ├── __init__.py                 <- Basic Python Package import file
-│   ├── _version.py                 <- Automatic version control with Versioneer
+├── molecool
 │   ├── data                        <- Sample additional data (non-code) which can be packaged. Just an example, delete in production
-│   │   ├── README.md
-│   │   └── look_and_say.dat
+│   │   ├── look_and_say.dat
+│   │   └── README.md
+│   ├── __init__.py                 <- Basic Python Package import file
+│   ├── molecool.py
+│   ├── _version.py                 <- Automatic version control with Versioneer
 │   └── tests                       <- Unit test directory with sample tests
 │       ├── __init__.py
 │       └── test_molecool.py
+├── README.md                       <- Description of project which GitHub will render
 ├── devtools                        <- Deployment, packaging, and CI helpers directory
 │   ├── README.md
 │   ├── conda-envs                  <- Conda environments for testing
